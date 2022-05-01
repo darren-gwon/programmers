@@ -1,4 +1,4 @@
-//핸드폰 번호 가리기
+//핸드폰 번호 가리기-1
 //https://programmers.co.kr/learn/courses/30/lessons/12948
 
 class Solution {
