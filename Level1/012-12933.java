@@ -1,5 +1,5 @@
-//제일 작은 수 제거하기
-//https://programmers.co.kr/learn/courses/30/lessons/12935
+//정수 내림차순으로 배치하기
+//https://programmers.co.kr/learn/courses/30/lessons/12933
 
 import java.lang.Math;
 
