@@ -1,16 +1,16 @@
 //자릿수 더하기
 //https://programmers.co.kr/learn/courses/30/lessons/12931
 
-class Solution {
-    public int[] solution(long n) {
+public class Solution {
+    public int solution(int n) {
+        int answer = 0;
+        
         String tmp = ""+n;
         
-        int[] intArr = new int[tmp.length()];
-        
-        for(int i = tmp.length()-1, j=0; i>=0; i-- ){
-            intArr[j++] = tmp.charAt(i)-'0';
+        for(int i = 0; i<tmp.length(); i++){
+            answer += tmp.charAt(i)-'0';
         }
         
-        return intArr;
+        return answer;
     }
 }
